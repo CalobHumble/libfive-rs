@@ -19,6 +19,6 @@ packed_opcodes = ["libfive-sys/packed_opcodes"]
 stdlib = []
 
 [dependencies]
-libfive-sys = "0.3"
+libfive-sys = { git = "https://github.com/CalobHumble/libfive-rs.git", branch = "eval/calob" }
 ahash = { version = "0.8", optional = true }
 derive_more = { version = "0.99" }
